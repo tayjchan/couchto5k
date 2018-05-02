@@ -1,0 +1,59 @@
+{
+    "status": "success",
+    "content": [
+                {
+                "week": 1,
+                "mon": {
+                "segments": 2,
+                "total": 21,
+                "repeat": 7,
+                "workout": [
+                            {
+                            "method": "run",
+                            "time": 2,
+                            "order": 1
+                            },
+                            {
+                            "method": "walk",
+                            "time": 1,
+                            "order": 1
+                            }
+                            ]
+                },
+                "wed": {
+                "segments": 2,
+                "total": 24,
+                "repeat": 6,
+                "workout": [
+                            {
+                            "method": "run",
+                            "time": 2,
+                            "order": 1
+                            },
+                            {
+                            "method": "walk",
+                            "time": 2,
+                            "order": 1
+                            }
+                            ]
+                },
+                "fri": {
+                "segments": 2,
+                "total": 25,
+                "repeat": 5,
+                "workout": [
+                            {
+                            "method": "run",
+                            "time": 2,
+                            "order": 1
+                            },
+                            {
+                            "method": "walk",
+                            "time": 2,
+                            "order": 1
+                            }
+                            ]
+                }
+                }
+                ]
+}

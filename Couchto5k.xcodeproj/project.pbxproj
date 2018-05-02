@@ -13,6 +13,8 @@
 		344D5351209A0EA4005DF64E /* Couchto5k.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 344D534F209A0EA4005DF64E /* Couchto5k.xcdatamodeld */; };
 		344D5353209A0EA5005DF64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344D5352209A0EA5005DF64E /* Assets.xcassets */; };
 		344D5356209A0EA5005DF64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344D5354209A0EA5005DF64E /* LaunchScreen.storyboard */; };
+		344D535E209A0FE5005DF64E /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344D535D209A0FE5005DF64E /* APIService.swift */; };
+		344D5360209A1204005DF64E /* workoutPlan.json in Resources */ = {isa = PBXBuildFile; fileRef = 344D535F209A1204005DF64E /* workoutPlan.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		344D5352209A0EA5005DF64E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		344D5355209A0EA5005DF64E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344D5357209A0EA5005DF64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		344D535D209A0FE5005DF64E /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		344D535F209A1204005DF64E /* workoutPlan.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = workoutPlan.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				344D5348209A0EA4005DF64E /* AppDelegate.swift */,
 				344D534A209A0EA4005DF64E /* ViewController.swift */,
+				344D535F209A1204005DF64E /* workoutPlan.json */,
+				344D535D209A0FE5005DF64E /* APIService.swift */,
 				344D534C209A0EA4005DF64E /* Main.storyboard */,
 				344D5352209A0EA5005DF64E /* Assets.xcassets */,
 				344D5354209A0EA5005DF64E /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				344D5356209A0EA5005DF64E /* LaunchScreen.storyboard in Resources */,
 				344D5353209A0EA5005DF64E /* Assets.xcassets in Resources */,
+				344D5360209A1204005DF64E /* workoutPlan.json in Resources */,
 				344D534E209A0EA4005DF64E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				344D5351209A0EA4005DF64E /* Couchto5k.xcdatamodeld in Sources */,
 				344D534B209A0EA4005DF64E /* ViewController.swift in Sources */,
+				344D535E209A0FE5005DF64E /* APIService.swift in Sources */,
 				344D5349209A0EA4005DF64E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
